@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+      "module": "ESNext", // Поддержка ES-модулей
+      "target": "ESNext", // Целевая версия JS
+      "moduleResolution": "Node",
+      "esModuleInterop": true, // Для совместимости CommonJS и ESM
+      "strict": true,
+      "outDir": "dist",
+      "rootDir": "./"
+    },
+    "include": ["./**/*.ts"],
+    "exclude": ["node_modules"]
+}
+  
