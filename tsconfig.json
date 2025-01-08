@@ -5,7 +5,7 @@
       "moduleResolution": "Node",
       "esModuleInterop": true, // Для совместимости CommonJS и ESM
       "strict": true,
-      "outDir": "dist",
+      "outDir": "public",
       "rootDir": "./"
     },
     "include": ["./**/*.ts"],
