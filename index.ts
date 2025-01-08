@@ -27,6 +27,7 @@ app.post('/users', async (req: Request, res: Response) => {
     res.status(201).json(user);
 });
 
-app.listen(PORT, () => {
-    console.log(`Server is running on http://localhost:${PORT}`);
-});
+// app.listen(PORT, () => {
+//     console.log(`Server is running on http://localhost:${PORT}`);
+// });
+export default app;
