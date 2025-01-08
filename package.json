@@ -7,7 +7,7 @@
   "scripts": {
     "dev": "NODE_OPTIONS=--loader=ts-node/esm TS_NODE_PROJECT=tsconfig.json ts-node-esm index.ts",
     "build": "tsc",
-    "start": "node dist/index.js"
+    "start": "node public/index.js"
   },
   "dependencies": {
     "@prisma/client": "6.2.0",
