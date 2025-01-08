@@ -6,6 +6,7 @@
   "type": "module",
   "scripts": {
     "dev": "NODE_OPTIONS=--loader=ts-node/esm TS_NODE_PROJECT=tsconfig.json ts-node-esm index.ts",
+    "postinstall": "prisma generate",
     "build": "prisma generate && tsc",
     "start": "node public/index.js"
   },
